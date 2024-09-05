@@ -7,6 +7,40 @@
 #* You will know what kind of data can be stored in variables
 #* You will understand the difference between strings, integers and floating point numbers
 
+name="Bob"
+Name="..."
+print(Name+name)
+
+myString ="something"
+myInt = 100
+myFloat = 2.5
+
+#casting example
+print(myInt/2)
+myNewInt = "100"
+print(int(myNewInt)/2)
+
+num1 = input("Please enter a number")
+
+print (int(num1) + int(num1))
+
+print("My int="+ str(myInt))
+
+thing = 500/6
+print(thing)
+print("my result is" + str(thing))
+print("My result is", thing)
+print(f"The Result is {thing}") #fstring - {} are for variables
+
+print("First line\nSecondline\nThird line")
+print("List header")
+print("\tItem1")
+print("\tItem2")
+print("\t*Item3*\n\t*Item4*\n\t*Item5")
+
+#File path example
+#c:\Users\myname\documents\onenote\ Notebooks
+print("C:\\User\\Mr.Johnson\\Document\\something")
 
 
 ## Live Demo ##
